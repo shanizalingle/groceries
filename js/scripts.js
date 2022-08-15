@@ -3,6 +3,9 @@ window.addEventListener("load", function(event){
   const groceryForm = document.getElementById("grocery-form");
   groceryForm.addEventListener("submit", handleSubmission);
 
+  const sentenceForm = document.getElementById("sentence-form");
+  sentenceForm.addEventListener("submit", handleSentenceSubmission);
+
 });
 
 function handleSubmission(event){
